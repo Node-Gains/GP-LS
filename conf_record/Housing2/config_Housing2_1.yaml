@@ -1,0 +1,32 @@
+benchmark: false
+problem: "Housing2"
+num_var: 13
+n_problem: 1
+db_name: "housing.txt"
+train_p: 0.7
+test_p: 0.3
+test_flag: True
+
+population_size: 100
+tournament_size: 7
+generations: 200
+cxpb: 0.9
+mutpb: 0.1
+params: ['best_of_each_specie', 2, 'yes']
+
+ls_flag: True
+ls_select: 1
+
+save_matrix: True
+gen_matrix: True
+
+
+num_salto: 500
+cont_evalf: 1000000
+
+run_begin: 1
+run_end: 2
+
+funcion: 1
+
+
